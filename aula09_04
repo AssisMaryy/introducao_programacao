@@ -1,0 +1,146 @@
+#include <stdio.h>
+
+/* Exemplo 01 */
+
+int main() {
+	float nota;
+	
+	printf("Digite a nota:");
+	scanf("%f", &nota);
+	
+	if(nota >= 6) {
+		printf("Aprovado\n");
+	} else{
+		printf("Reprovado\n");
+	}
+	return 0;
+}
+
+
+#include <stdio.h>
+
+/* Exemplo 02 */
+
+int main() {
+	float nota;
+	
+	printf("Digite a nota:");
+	scanf("%f", &nota);
+	
+	printf("%s\n", nota >= 6 "Aprovado" : "Reprovado");
+	
+	return 0;
+}
+
+
+
+#include <stdio.h>
+
+/* Exemplo 03 */
+
+int main() {
+	float nota;
+	
+	printf("Digite a nota:");
+	scanf("%f", &nota);
+	
+	if(nota >= 6) {
+		if (nota == 10){
+			printf("Aprovado com nota maxima\n");
+		} else{
+			printf("Aprovado\n")
+	} else{
+		printf("Reprovado\n");
+	}
+	return 0;
+}
+
+
+#include <stdio.h>
+
+/* Exemplo 04 */
+
+int main() {
+	float nota;
+	char *resultado;
+	
+	printf("Digite a nota:");
+	scanf("%f", &nota);
+	
+	resultado = nota >= 6 ? (nota == 10) ? "Aprovado com nota maxima" : "Aprovado") : "Reprovado";
+	
+	printf("%s\n", resultado);
+	return 0;
+}
+
+
+#include <stdio.h>
+
+/* Exercicio 01 */
+
+int main() {
+	int idade;
+	
+	printf("Digite a idade:");
+	scanf("%i", &idade);
+	
+	if (idade >= 18) {
+		printf("Maior de idade\n");
+	}
+	
+	return 0;
+}
+
+
+
+#include <stdio.h>
+
+/* Exercicio 02 */
+
+int main() {
+	int nota;
+	
+	printf("Digite a nota:");
+	scanf("%f", &nota);
+	
+	if (nota >= 6) {
+		printf("Aluno aprovado\n");
+	} else{
+		printf("Aluno reprovado\n");
+	}
+	
+	return 0;
+}
+
+
+#include <stdio.h>
+
+/* Exercicio 02 */
+
+int main() {
+	float av;
+	float simulado1;
+	float simulado2;
+	float nota;
+	
+	printf("Digite a nota da AV :");
+	scanf("%f", &av);
+	
+	printf("Digite a nota do simulado (0 a 1) :");
+	scanf("%f", &simulado1);
+	
+	printf("Digite a nota do simulado2 (0 a 1) :");
+	scanf("%f", &simulado2);
+	
+	nota = av + simulado1 + simulado2;
+	if (nota >= 10) {
+		printf("Nota final : 10.0");
+	} else{
+		printf("Nota final :"$1.f", nota);
+	}
+	
+	return 0;
+}
+
+
+
