@@ -1,0 +1,164 @@
+
+EXEMPLO 01
+include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+	int opcao;
+	printf("Digite uma opcao de 1 a 3: ");
+	scanf("%d", &opcao);
+	
+	switch(opcao) {
+		case 1:
+			printf("Voce escolheu a opcao 1.\n");
+			break;
+		case 2:
+			printf("Voce escolheu a opcao 2.\n");
+			break;
+		case 3:
+			printf("Voce escolheu a opcao 3.\n");
+			break;
+		default:
+			printf("Opcao invalida\n");
+	}
+	return 0;
+}
+
+EXEMPLO 02
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+    int opcao;
+
+    printf("===== MENU ======\n");
+    printf("1 - Cadastrar aluno\n");
+    printf("2 - Consultar aluno\n");
+    printf("3 - Excluir aluno\n");
+    printf("4 - Sair\n");
+    printf("Escolha uma opcao: \n");
+    scanf("%d", &opcao);
+
+    switch(opcao) {
+        case 1:
+            printf("Opcao escolhida: Cadastrar aluno.\n");
+            break;
+        case 2:
+            printf("Opcao escolhida: Consultar aluno.\n");
+            break;
+        case 3:
+            printf("Opcao escolhida: Excluir aluno.\n");
+            break;
+        case 4:
+            printf("Encerrando o programa.\n");
+            break;
+        default:
+            printf("Opcao invalida.\n");
+    }
+
+    return 0;
+}
+
+
+
+EXEMPLO 03
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+    char conceito;
+    printf("Digite o conceito do aluno: ");
+    scanf("%c", &conceito);
+
+    switch(conceito) {
+        case 'A':
+            printf("Excelente.\n");
+            break;
+        case 'B':
+            printf("Bom.\n");
+            break;
+        case 'C':
+            printf("Regular.\n");
+            break;
+        case 'D':
+            printf("Insuficiente.\n");
+            break;
+        default:
+            printf("Conceito invalido.\n");
+    }
+
+    return 0;
+}
+
+
+
+EXEMPLO 04
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(void) {
+	float numero1;
+	float numero2;
+	char operacao;
+	printf("Digite o primeiro numero: ");
+	scanf(" %f", &numero1);
+	printf("Digite a operacao(+, -,*, /): ");
+	scanf(" %c", &operacao);
+	printf("Digite o segundo numero: ");
+	scanf(" %f", &numero2);
+	switch (operacao) {
+		
+		
+		case '/':
+		if (numero2 !=0) {
+			printf("Resultado: %.2f\n", numero1 / numero2);
+		}else{
+			printf("Nao é possivel dividir por zero.\n");
+		}
+		break;
+	}
+	return 0;
+}
+
+
+EXEMPLO 05 
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(void) {
+	int contador;
+	
+	for (contador = 1; contador <= 10; contador ++) {
+		printf("%d\n", contador);
+	}
+	return 0;
+}
+
+
+
+EXEMPLO 06
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(void) {
+	int contador = 1;
+	
+	for (;;) {
+		if (contador > 10){
+			break;
+		}
+		printf("%d\n", contador);
+		contador++;
+	}
+	return 0;
+}
