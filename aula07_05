@@ -1,0 +1,16 @@
+EXERCICIO 01
+
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+	int idade;
+	
+	std::cout <<"Digite sua idade: ";
+	std::cin >> idade;
+	std::cout<<"Idade digitada: " << idade << std::endl;
+	
+	return 0;
+}
+
