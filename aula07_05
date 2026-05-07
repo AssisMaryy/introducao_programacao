@@ -14,3 +14,23 @@ int main() {
 	return 0;
 }
 
+EXERCICIO 02
+
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+	int n;
+	std::cout << "Digite um numero inteiro: ";
+	std::cin >> n;
+	
+	unsigned long long fatorial = 1;
+	for (int i = 1; i <= n; ++i) {
+		fatorial *= i;
+	}
+	
+	std::cout << "O fatorial de " << n << " é: " << fatorial << std::endl;
+	
+	return 0;
+}
