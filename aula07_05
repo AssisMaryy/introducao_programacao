@@ -34,3 +34,21 @@ int main() {
 	
 	return 0;
 }
+
+EXERCICIO 03
+
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+	int cont, num;
+	std::cout << "numero? ";
+	std::cin >> num;
+	cont = 1;
+	while (cont < 10 ){
+		std::cout << num << " x " << cont << " = " << num * cont << std::endl;
+		cont++;
+	}
+	return 0;
+}
