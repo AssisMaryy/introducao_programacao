@@ -52,3 +52,57 @@ int main() {
 	}
 	return 0;
 }
+
+
+EXERCICIO  04
+
+
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+	int cont, num;
+	std::cout << "numero? ";
+	std::cin >> num;
+	cont = 100;
+	do{
+		std::cout << num << " x " << cont << " = " << num * cont << std::endl;
+		cont++;
+	}while (cont < 10);
+	return 0;
+}
+
+
+
+EXERCICIO 05
+
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main() {
+int i;
+float y, x, aux;
+i = 0 ;
+cout << "qual o valor de y?";
+cin >> y;
+if (y==0){
+	cout << "Raiz de y=0?" << endl;
+} else{
+	if (y < 0) {
+		cout << "Nao e' possivel fazer o calculo!" << endl;
+	}else {
+		x = y / 2;
+		aux = 0;
+		while (x != aux) {
+			aux = x;
+			x = x - (x * x - y) / (2 * x);
+			i++;
+		}
+		cout << "Raiz de y=" << x << endl;
+		cout << "Numero de repeticoes: " << i << endl;
+	}
+}
+	
+}
