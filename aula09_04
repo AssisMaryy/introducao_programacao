@@ -1,6 +1,6 @@
-#include <stdio.h>
+EXERCICIO 01
 
-/* Exemplo 01 */
+#include <stdio.h>
 
 int main() {
 	float nota;
@@ -17,9 +17,8 @@ int main() {
 }
 
 
+EXERCICIO 02
 #include <stdio.h>
-
-/* Exemplo 02 */
 
 int main() {
 	float nota;
@@ -32,11 +31,9 @@ int main() {
 	return 0;
 }
 
-
+EXERCICIO 03
 
 #include <stdio.h>
-
-/* Exemplo 03 */
 
 int main() {
 	float nota;
@@ -56,9 +53,9 @@ int main() {
 }
 
 
-#include <stdio.h>
 
-/* Exemplo 04 */
+EXERCICIO 04
+#include <stdio.h>
 
 int main() {
 	float nota;
@@ -73,10 +70,9 @@ int main() {
 	return 0;
 }
 
+EXERCICIO 05
 
 #include <stdio.h>
-
-/* Exercicio 01 */
 
 int main() {
 	int idade;
@@ -93,9 +89,8 @@ int main() {
 
 
 
+EXERCICIO 06
 #include <stdio.h>
-
-/* Exercicio 02 */
 
 int main() {
 	int nota;
@@ -112,11 +107,9 @@ int main() {
 	return 0;
 }
 
+EXERCICIO 07
 
 #include <stdio.h>
-
-/* Exercicio 03 */
-
 int main() {
 	float av;
 	float simulado1;
