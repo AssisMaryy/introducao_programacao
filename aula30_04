@@ -1,5 +1,5 @@
 
-EXEMPLO 01
+EXERCICIO 01
 include <stdio.h>
 #include <stdlib.h>
 
@@ -25,7 +25,7 @@ int main(void) {
 	return 0;
 }
 
-EXEMPLO 02
+EXERCICIO 02
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -62,7 +62,7 @@ int main(void) {
 
 
 
-EXEMPLO 03
+EXERCICIO 03
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -93,7 +93,7 @@ int main(void) {
 
 
 
-EXEMPLO 04
+EXERCICIO 04
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -125,7 +125,7 @@ int main(void) {
 }
 
 
-EXEMPLO 05 
+EXERCICIO 05 
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -143,7 +143,7 @@ int main(void) {
 
 
 
-EXEMPLO 06
+ EXERCICIO 06
 
 #include <stdio.h>
 #include <stdlib.h>
